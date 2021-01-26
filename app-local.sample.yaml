@@ -1,0 +1,27 @@
+env_variables:
+  #session encryption
+  JWT_KEY: "-- 64 characters --"
+  #communication
+  EMAIL_HOST: "smtp.gmail.com"
+  EMAIL_PORT: "587"
+  EMAIL_USER: "noreply@boatfuji.com"
+  EMAIL_PASS: "-- 12 characters --"
+  NEXMO_KEY: "-- 8 characters --"
+  NEXMO_SECRET: "-- 16 characters --"
+  NEXMO_FROM: "13525799726"
+  #oauth2
+  FACEBOOK_APP_ID: "-- 15 digits --"
+  FACEBOOK_APP_SECRET: "-- 32 nybbles --"
+  FACEBOOK_CLIENT_TOKEN: "-- 32 nybbles --"
+  GOOGLE_APP_ID: "--12 digits ----- 32 characters --.apps.googleusercontent.com"
+  GOOGLE_APP_SECRET: "-- 24 characters --"
+  #third party integration keys
+  GOOGLE_API_KEY_ANDROID: "-- 39 characters --"
+  GOOGLE_API_KEY_IOS: "-- 39 characters --"
+  GOOGLE_API_KEY_WEB: "-- 39 characters --"
+  STRIPE_PUBLISHABLE_KEY: "pk_test_34 characters"
+  STRIPE_SECRET_KEY: "sk_test_34 characters"
+  STRIPE_WEBHOOK_SECRET: "whsec_..."
+  #mobile app versions: required, suggested, current
+  ANDROID_VERSIONS: "1.0,1.0,1.0"
+  IOS_VERSIONS: "1.0,1.0,1.0"

@@ -1,0 +1,23 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+schema:
+- name: boat-golang
+  path: .
+  commands:
+    install:
+      status: true
+      method: go build -o boatfuji-server
+    run:
+      status: true
+      method: ./boatfuji-server
+  watcher:
+    extensions:
+    - go
+    paths:
+    - /
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor
